@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A74F64471A66440100FAE995 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F64461A66440100FAE995 /* AppDelegate.swift */; };
+		A74F64491A66440100FAE995 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F64481A66440100FAE995 /* ViewController.swift */; };
+		A74F644C1A66440100FAE995 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74F644A1A66440100FAE995 /* Main.storyboard */; };
+		A74F644E1A66440100FAE995 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74F644D1A66440100FAE995 /* Images.xcassets */; };
+		A74F64511A66440100FAE995 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A74F644F1A66440100FAE995 /* LaunchScreen.xib */; };
+		A74F645D1A66440100FAE995 /* Access_Web_ContentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A74F645C1A66440100FAE995 /* Access_Web_ContentTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74F64571A66440100FAE995 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74F64391A66440100FAE995 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74F64401A66440100FAE995;
+			remoteInfo = "Access Web Content";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74F64411A66440100FAE995 /* Access Web Content.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Access Web Content.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F64451A66440100FAE995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F64461A66440100FAE995 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A74F64481A66440100FAE995 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A74F644B1A66440100FAE995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74F644D1A66440100FAE995 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A74F64501A66440100FAE995 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A74F64561A66440100FAE995 /* Access Web ContentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Access Web ContentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74F645B1A66440100FAE995 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74F645C1A66440100FAE995 /* Access_Web_ContentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Access_Web_ContentTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74F643E1A66440100FAE995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F64531A66440100FAE995 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A74F64381A66440100FAE995 = {
+			isa = PBXGroup;
+			children = (
+				A74F64431A66440100FAE995 /* Access Web Content */,
+				A74F64591A66440100FAE995 /* Access Web ContentTests */,
+				A74F64421A66440100FAE995 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74F64421A66440100FAE995 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74F64411A66440100FAE995 /* Access Web Content.app */,
+				A74F64561A66440100FAE995 /* Access Web ContentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A74F64431A66440100FAE995 /* Access Web Content */ = {
+			isa = PBXGroup;
+			children = (
+				A74F64461A66440100FAE995 /* AppDelegate.swift */,
+				A74F64481A66440100FAE995 /* ViewController.swift */,
+				A74F644A1A66440100FAE995 /* Main.storyboard */,
+				A74F644D1A66440100FAE995 /* Images.xcassets */,
+				A74F644F1A66440100FAE995 /* LaunchScreen.xib */,
+				A74F64441A66440100FAE995 /* Supporting Files */,
+			);
+			path = "Access Web Content";
+			sourceTree = "<group>";
+		};
+		A74F64441A66440100FAE995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74F64451A66440100FAE995 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A74F64591A66440100FAE995 /* Access Web ContentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74F645C1A66440100FAE995 /* Access_Web_ContentTests.swift */,
+				A74F645A1A66440100FAE995 /* Supporting Files */,
+			);
+			path = "Access Web ContentTests";
+			sourceTree = "<group>";
+		};
+		A74F645A1A66440100FAE995 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A74F645B1A66440100FAE995 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74F64401A66440100FAE995 /* Access Web Content */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F64601A66440100FAE995 /* Build configuration list for PBXNativeTarget "Access Web Content" */;
+			buildPhases = (
+				A74F643D1A66440100FAE995 /* Sources */,
+				A74F643E1A66440100FAE995 /* Frameworks */,
+				A74F643F1A66440100FAE995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Access Web Content";
+			productName = "Access Web Content";
+			productReference = A74F64411A66440100FAE995 /* Access Web Content.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74F64551A66440100FAE995 /* Access Web ContentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74F64631A66440100FAE995 /* Build configuration list for PBXNativeTarget "Access Web ContentTests" */;
+			buildPhases = (
+				A74F64521A66440100FAE995 /* Sources */,
+				A74F64531A66440100FAE995 /* Frameworks */,
+				A74F64541A66440100FAE995 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74F64581A66440100FAE995 /* PBXTargetDependency */,
+			);
+			name = "Access Web ContentTests";
+			productName = "Access Web ContentTests";
+			productReference = A74F64561A66440100FAE995 /* Access Web ContentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74F64391A66440100FAE995 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Yosemite;
+				TargetAttributes = {
+					A74F64401A66440100FAE995 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A74F64551A66440100FAE995 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A74F64401A66440100FAE995;
+					};
+				};
+			};
+			buildConfigurationList = A74F643C1A66440100FAE995 /* Build configuration list for PBXProject "Access Web Content" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A74F64381A66440100FAE995;
+			productRefGroup = A74F64421A66440100FAE995 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74F64401A66440100FAE995 /* Access Web Content */,
+				A74F64551A66440100FAE995 /* Access Web ContentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74F643F1A66440100FAE995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F644C1A66440100FAE995 /* Main.storyboard in Resources */,
+				A74F64511A66440100FAE995 /* LaunchScreen.xib in Resources */,
+				A74F644E1A66440100FAE995 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F64541A66440100FAE995 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74F643D1A66440100FAE995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F64491A66440100FAE995 /* ViewController.swift in Sources */,
+				A74F64471A66440100FAE995 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74F64521A66440100FAE995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74F645D1A66440100FAE995 /* Access_Web_ContentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74F64581A66440100FAE995 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74F64401A66440100FAE995 /* Access Web Content */;
+			targetProxy = A74F64571A66440100FAE995 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74F644A1A66440100FAE995 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74F644B1A66440100FAE995 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74F644F1A66440100FAE995 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74F64501A66440100FAE995 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74F645E1A66440100FAE995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A74F645F1A66440100FAE995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74F64611A66440100FAE995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Access Web Content/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74F64621A66440100FAE995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Access Web Content/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A74F64641A66440100FAE995 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Access Web ContentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Web Content.app/Access Web Content";
+			};
+			name = Debug;
+		};
+		A74F64651A66440100FAE995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Access Web ContentTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Access Web Content.app/Access Web Content";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74F643C1A66440100FAE995 /* Build configuration list for PBXProject "Access Web Content" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F645E1A66440100FAE995 /* Debug */,
+				A74F645F1A66440100FAE995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74F64601A66440100FAE995 /* Build configuration list for PBXNativeTarget "Access Web Content" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F64611A66440100FAE995 /* Debug */,
+				A74F64621A66440100FAE995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A74F64631A66440100FAE995 /* Build configuration list for PBXNativeTarget "Access Web ContentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74F64641A66440100FAE995 /* Debug */,
+				A74F64651A66440100FAE995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74F64391A66440100FAE995 /* Project object */;
+}
